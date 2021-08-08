@@ -1,0 +1,28 @@
+/*
+ * Colors
+*/
+
+// Base
+$white: #ffffff;
+$black: #000000;
+$transparent: transparent;
+
+
+// Gray
+$gray-100: #e9e9e9;
+$gray-500: #2f2f2f;
+
+// Green
+$green-100: #e5f4ed;
+$green-200: #ecfafa;
+$green-500: #47bcbc;
+$green-600: #019249;
+$green-700: #006f37;
+
+// Red
+$red-100: #fdf4f4;
+$red-600: #c70000;
+
+// Primary
+$primary: #64c250;
+$secondary: lighten($primary, 54%);

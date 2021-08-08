@@ -1,0 +1,17 @@
+.btn {
+  padding: 12px 24px;
+  border-radius: 500px;
+  color: $white;
+  font-weight: 900;
+  transition: .3s;
+
+  &__primary {
+    background-color: $primary;
+
+    &:hover {
+      background-color: darken($primary, 10%);
+      transform: scale(1.1);
+      transition: .3s;
+    }
+  }
+}
